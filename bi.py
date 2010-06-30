@@ -11,10 +11,8 @@ def prc_bi(iInput):
 	lstAns = []
 	while iInput-iShift > 0:
 		if (iInput & iShift) >0:
-			print "1"
 			lstAns.append(1)
 		else:
-			print "0"
 			lstAns.append(0)
 		
 		iShift = iShift << 1
